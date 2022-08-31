@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import Footer from "./Footer";
 
 const Weather = (props) => {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -55,6 +56,7 @@ const Weather = (props) => {
           <h1 id="current-city" className="current-city">{weatherData.city}</h1>
         </div>
         <WeatherInfo data={weatherData}/>
+        <Footer />
       </>
     )
   } else{
