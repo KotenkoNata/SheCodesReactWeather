@@ -40,8 +40,8 @@ const WeatherInfo = (props) => {
                 {Math.round(unit)}
               </h2>
               <span className="degree-celsius">
-                            <a id="celsius-link" className={active === "c" ? "active" : ''} href="#" onClick={handleDegreeClick}>°C</a> | <a  className={active === "f" ? "active" : ''} onClick={handleDegreeClick} id="fahrenheit-link"
-                                                                                         href="#">°F</a>
+                            <button id="celsius-link" className={active === "c" ? "active" : ''} onClick={handleDegreeClick}>°C</button> | <button  className={active === "f" ? "active" : ''} onClick={handleDegreeClick} id="fahrenheit-link"
+                                                                                         >°F</button>
                         </span>
             </div>
 

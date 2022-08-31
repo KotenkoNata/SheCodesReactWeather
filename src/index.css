@@ -163,8 +163,10 @@ degree{
   right: -3em;
 }
 
-.degree-celsius a{
-  text-decoration: none;
+.degree-celsius button{
+  background-color: transparent;
+  border: none;
+  padding: 0;
   color: black;
 }
 
